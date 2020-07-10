@@ -1,0 +1,39 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+body{
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    background: lightgray;
+}
+
+.icon-container, #rich-text-editor{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+.icon-container {
+    background: gray;
+    padding: 4px;
+    /* text-align: center; */
+}
+
+#rich-text-editor{
+    display: block;
+    background: white;
+    height: 600px;
+    padding: 20px;
+  
+}
+.icon-container > button{
+    font-size: 14px;
+    padding: 2px 4px;
+    cursor: pointer;
+}
